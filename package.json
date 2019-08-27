@@ -5,10 +5,14 @@
   "repository": "https://github.com/wwgoncalves/gostack-desafio01.git",
   "author": "William",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
   "devDependencies": {
     "nodemon": "^1.19.1"
   },
   "dependencies": {
+    "dotenv": "^8.1.0",
     "express": "^4.17.1"
   }
 }
